@@ -41,19 +41,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
                         <li class="nav-item">
-                            <a class="nav-link active text" aria-current="page" href="#">Accueil</a>
+                            <a class="nav-link active text" aria-current="page" href="#accueil">Accueil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">A propos</a>
+                            <a class="nav-link" href="#about">A propos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Hebergements</a>
+                            <a class="nav-link" href="#hebergements">Hebergements</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Restaurant</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contacts</a>
+                            <a class="nav-link" href="#contacts">Contacts</a>
                         </li>
                     </ul>
                     <form class="d-flex">
@@ -63,7 +63,7 @@
             </div>
         </nav>
 
-        <div class="carousel-container">
+        <div class="carousel-container" id="accueil">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -104,7 +104,7 @@
 
 <!-- ABOUT SECTION Bootstrap-->
 
-<section class="py-3 py-md-5 d-flex about-height">
+<section class="py-3 py-md-5 d-flex about-height" id="about">
     <div class="container"> 
         <div class="row g-5 justify-content-around"> 
             <div class="col-12 col-lg-4 "> 
@@ -126,7 +126,7 @@
 
     <!------------------ PAGE HEBERGEMENTS -------------------->
 
-    <section class="hebergement" id="top_hebergement">
+    <section class="hebergement" id="hebergements">
         <div class="hebergement_title">
             <h1>NOS HEBERGEMENTS</h1>
             <p>Vos choix selon vos budgets</p>
@@ -262,15 +262,15 @@
 
 <!-- CONTACTS SECTION -->
 
-<section class="container-contact">
+<section class="container-contact" id="contacts">
     <span class="big-circle"></span>
     <img src="img/shape.png" class="square" alt="" />
     <div class="form">
       <div class="contact-info">
         <h3 class="title">Contactez nous</h3>
         <p class="text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-          dolorum adipisci recusandae praesentium dicta!
+            Réservez dès maintenant et profitez d’une expérience inoubliable dans notre hôtel !
+             Contactez-nous pour obtenir les meilleurs tarifs et disponibilités.
         </p>
 
         <div class="info">
@@ -373,5 +373,7 @@
     <div class="signature">
     </div>
 </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
 </body>
 </html>
