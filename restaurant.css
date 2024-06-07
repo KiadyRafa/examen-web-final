@@ -15,36 +15,38 @@
 }
 
 
+.toSticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.741);
+  height: 14vh;
+  z-index: 10;
+}
+
 .navbar-position {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10; 
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 10;
 }
 
 header {
-    position: relative;
-    height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url('./images/PLATS01.jpg');
-    background-size: cover;
-    background-position: 100% 57%;
-    filter: contrast(1.1) brightness(1.1);
+position: relative;
+height: calc(100vh - 14vh);
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+padding-top: 14vh;
+background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url('./images/PLATS01.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 100% 57%;
 }
 
-.navbar-position {
-    position: absolute;
-    top: 7vh;
-    left: 0;
-    width: 100%;
-    z-index: 10;
-    background-color: transparent;
-
-}
 .navbar-brand img{
     filter: contrast(1.25) brightness(0.9);
 }
