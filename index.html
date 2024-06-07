@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./images/Logo.png" sizes="48x48" type="image/x-icon">
+    <script src="./bootstrap/js/bootstrap.bundle.min.js" defer></script>
+    <script src="./bootstrap/js/popper.min.js" defer></script>
+    <script src="./bootstrap/js/bootstrap.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-xrI9OTy7eVa7ZllwXyfxTL4l5nryK9uKWDh54HIjzSOszE70S7FT1yQ2BRbgI2HA" crossorigin="anonymous">
+    <title>Lotus Bungalow</title>
+</head>
+<body>
+
+    <!-- HEADER Bootstrap-->
+    <header>
+        <div class="container-restaurant h-100 d-flex justify-content-center align-items-center">
+            <div class="text-page text-center d-flex flex-column justify-content-center align-items-center">
+                <h2>BIENVENUE</h2>
+                <h1>LE LOTUS BUNGALOW</h1>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-position">
+            <div class="container-fluid">
+
+                <div class="d-flex justify-content-center align-items-center ms-4">
+                    <a class="navbar-brand" href="#">
+                        <img src="./images/Logo.png" alt="" width="98" height="85" class="d-inline-block align-text-top">
+                    </a>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+                        <li class="nav-item">
+                            <a class="nav-link active text" aria-current="page" href="#">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">A propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Hebergements</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Restaurant</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacts</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button type="button" class="btn btn-lg btn-submits">Réservez</button>
+                    </form>                    
+                </div>
+            </div>
+        </nav>
+
+        <div class="carousel-container">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active logo-gradient">
+                        <img src="./images/1.jpg" class="d-block w-100 d-block carousel-image-position carousel1" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Plongez dans un cadre paradisiaque au sein de notre complexe hôtelier.</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item logo-gradient">
+                        <img src="./images/caroussel1.jpg" class="d-block w-100 carousel-image-position1" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Le Lotus Bungalow est un complexe hôtelier situé à 1,3km de la plage.</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item logo-gradient">
+                        <img src="./images/caroussel4.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>La meilleure vue avec la meilleure nourriture.</h3>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+<!-- ABOUT SECTION Bootstrap-->
+
+<section class="py-3 py-md-5 d-flex about-height">
+    <div class="container"> 
+        <div class="row g-5 justify-content-around"> 
+            <div class="col-12 col-lg-4 "> 
+                <img class="img-fluid rounded size-img" loading="lazy" src="./images/PLATS01.jpg" alt="About 1"> 
+            </div> 
+            <div class="col-12 col-lg-4"> 
+                <img class="img-fluid rounded size-img" loading="lazy" src="./images/PLATS02.jpg" alt="About 2"> 
+            </div> 
+            <div class="col-12 col-lg-4 d-flex flex-column text-center about1 ml-lg-6"> 
+                <h6 class="text-about">A PROPOS</h6> 
+                <h1 class="text-about1">Hotel Le Lotus Bungalow</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum labore quis assumenda facere consequuntur nemo omnis hic mollitia sequi! Deserunt cum officiis </br> 
+                    incidunt quam fugit corrupti voluptate repellendus dicta labore.</p> 
+                <a class="lead-about" href="http://">PLUS D'INFORMATION</a>
+            </div> 
+        </div> 
+    </div>
+</section>
+
+    <!------------------ PAGE HEBERGEMENTS -------------------->
+
+    <section class="hebergement" id="top_hebergement">
+        <div class="hebergement_title">
+            <h1>NOS HEBERGEMENTS</h1>
+            <p>Vos choix selon vos budgets</p>
+        </div>
+        <div class="hebergement_choice">
+
+                <!------  cARDS 1 ------->
+            <div class="cards">
+                <div class="cards_img">
+                    <img src="images/5.jpg" alt="room1">
+                </div>
+                <div class="cards_description">
+                    <div class="place">
+                         <h3>Bungalow 1</h3>   
+                         <div class="mark1">
+                            <i class="fas fa-star"></i><span>4.3</span>
+                         </div>
+                    </div>
+                    <div class="activity"> 
+                            <div class="service"> 
+
+                                <p>Piscine</p> 
+                            </div>  
+                            <div class="service">
+                                <p>Billars</p> 
+                            </div> 
+                            <div class="service"> 
+            
+                                <p>Wi-Fi</p> 
+                            </div> 
+                    </div>
+                    <div class="price">
+                        <i class="fas fa-bookmark"></i>
+                        <h4>A partir de Ar 75000/</h4><span>jour</span>       
+                    </div>
+                </div>
+            </div>
+                    <!------  cARDS 2 ------->
+            <div class="cards">
+                <div class="cards_img">
+                    <img src="images/7.jpg" alt="room2">
+                </div>
+                <div class="cards_description">
+                    <div class="place">
+                         <h3>Bungalow 2</h3>   
+                         <div class="mark1">
+                            <i class="fas fa-star"></i><span>4.7</span>
+                         </div>
+                    </div>
+                    <div class="activity"> 
+                            <div class="service"> 
+                                <p>Piscine</p> 
+                            </div>  
+                            <div class="service">
+                                <p>Billars</p> 
+                            </div> 
+                            <div class="service"> 
+            
+                                <p>Wi-Fi</p> 
+                            </div> 
+                    </div>
+                    <div class="price">
+                        <i class="fas fa-bookmark"></i>
+                        <h4>A partir de Ar 75000/</h4><span>jour</span>       
+                    </div>
+                </div>
+            </div>
+                    <!------  cARDS 3 ------->
+            <div class="cards">
+                <div class="cards_img">
+                    <img src="images/8.jpg" alt="room3">
+                </div>
+                <div class="cards_description">
+                    <div class="place">
+                         <h3>Bungalow 3</h3>   
+                         <div class="mark1">
+                            <i class="fas fa-star"></i><span>4.9</span>
+                         </div>
+                    </div>
+                    <div class="activity"> 
+                            <div class="service"> 
+
+                                <p>Piscine</p> 
+                            </div>  
+                            <div class="service">
+                                <p>Billars</p> 
+                            </div> 
+                            <div class="service"> 
+            
+                                <p>WiFi</p> 
+                            </div> 
+                    </div>
+                    <div class="price">
+                        <i class="fas fa-bookmark"></i>
+                        <h4>A partir de Ar 75000/</h4><span>jour</span>        
+                    </div>
+                </div>
+            </div>
+                    <!------  cARDS 4 ------->
+            <div class="cards">
+                <div class="cards_img">
+                    <img src="images/6.jpg" alt="room3">
+                </div>
+                <div class="cards_description">
+                    <div class="place">
+                         <h3>Bungalow 4</h3>   
+                         <div class="mark1">
+                            <i class="fas fa-star"></i><span>4.9</span>
+                         </div>
+                    </div>
+                    <div class="activity"> 
+                            <div class="service"> 
+                                <p>Piscine</p> 
+                            </div> 
+                            <div class="service">
+                                <p>Billars</p> 
+                            </div> 
+                            <div class="service"> 
+                                <p>Wi-Fi</p> 
+                            </div> 
+                    </div>
+                    <div class="price">
+                        <i class="fas fa-bookmark"></i>
+                        <h4>A partir de Ar 75000/</h4><span>jour</span>        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="lead-about align-items-center text-center" href="http://">PLUS D'INFORMATION</a>
+    </section>
+
+
+
+<!-- CONTACTS SECTION -->
+
+<section class="container-contact">
+    <span class="big-circle"></span>
+    <img src="img/shape.png" class="square" alt="" />
+    <div class="form">
+      <div class="contact-info">
+        <h3 class="title">Contactez nous</h3>
+        <p class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+          dolorum adipisci recusandae praesentium dicta!
+        </p>
+
+        <div class="info">
+          <div class="information">
+            <p>Foulpointe</p>
+          </div>
+          <div class="information">
+            <p>llelotus.bungalow@gmail.com</p>
+          </div>
+          <div class="information">
+            <p>0331413432 </br>
+                034313773</p>
+          </div>
+        </div>
+
+        <div class="social-media">
+            <p>Nous Contactez :</p>
+            <div class="social-icons">
+              <a href="#">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </div>
+          </div>
+      </div>
+
+      <div class="contact-form">
+        <span class="circle one"></span>
+        <span class="circle two"></span>
+
+        <form action="index.html" autocomplete="off">
+          <h3 class="title">Contactez-nous</h3>
+          <div class="input-container">
+            <input type="text" name="name" class="input" />
+            <label for="">Nom</label>
+            <span>Nom</span>
+          </div>
+          <div class="input-container">
+            <input type="email" name="email" class="input" />
+            <label for="">Email</label>
+            <span>Email</span>
+          </div>
+          <div class="input-container">
+            <input type="tel" name="phone" class="input" />
+            <label for="">Teléphone</label>
+            <span>Teléphone</span>
+          </div>
+          <div class="input-container textarea">
+            <textarea name="message" class="input"></textarea>
+            <label for="">Message</label>
+            <span>Message</span>
+          </div>
+          <input type="submit" value="Send" class="btn" />
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+<!-- FOOTER SECTION -->
+
+<footer>
+    <div class="footer_content">
+        <div class="footer_side_1">
+            <div class="footer_logo">
+                <img src="./images/Logo.png" alt="logo.png">
+                <h3>LE LOTUS BUNGALOWS</h3>
+            </div>
+            <div class="footer_text">
+                <p>Plongez dans un cadre paradisiaque au sein de notre complexe hôtelier.
+                   Le Lotus Bungalow est un complexe hôtelier situé à 1,3km de la plage.</p>
+            </div>
+            <div class="social_logo">
+                <svg fill="white" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512">
+                    <path
+                        d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h98.2V334.2H109.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H255V480H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z" />
+                </svg>
+            </div>
+        </div>
+        <div class="footer_side_2">
+            <h4>Nous Contactez</h4>
+            <a href="https://maps.app.goo.gl/SBGgJvhNpbNuV6qY8">Notre adresse</a>
+            <p>lelotus.bungalow@gmail.com</p>
+            <p>0331413432 </br>
+               0343137732</p>
+        </div>
+        <div class="footer_side_1">
+            <div class="footer_input">
+                <h4>Abonnez-vous à nos newsletters</h4>
+                <div class="input-mail">
+                    <input type="email" id="tap">
+                    <input type="submit" value="send" id="sendPaper">
+                </div>
+            </div>
+            <div class="sent">
+                <p>Envoyer</p>
+            </div>
+        </div>
+    </div>
+    <div class="signature">
+    </div>
+</footer>
+</body>
+</html>
