@@ -28,3 +28,12 @@ inputs.forEach((input) => {
   input.addEventListener("focus", focusFunc);
   input.addEventListener("blur", blurFunc);
 });
+
+window.addEventListener("scroll", () => {
+  const navbar = document.querySelector(".navbar-position");
+  if (window.scrollY > 800) {
+      navbar.classList.add("toSticky")
+  } else{
+      navbar.classList.remove("toSticky");
+  }
+});
