@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="reservation.css">
+    <link rel="icon" href="./images/Logo.png" sizes="48x48" type="image/x-icon">
+    <script src="./bootstrap/js/bootstrap.bundle.min.js" defer></script>
+    <script src="./bootstrap/js/popper.min.js" defer></script>
+    <script src="./bootstrap/js/bootstrap.min.js" defer></script>
+    <title>Restaurant</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-position">
+            <div class="container-fluid">
+
+                <div class="d-flex justify-content-center align-items-center ms-4">
+                    <a class="navbar-brand" href="#">
+                        <img src="./images/Logo.png" alt="" width="98" height="85" class="d-inline-block align-text-top">
+                    </a>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5 d-flex justify-content-center align-items-center w-100">
+                        <li class="nav-item">
+                            <a class="nav-link active text" aria-current="page" href="index.html">Accueil</a>
+                        </li>
+                    </ul>                   
+                </div>
+            </div>
+        </nav>
+        
+        <section class = "banner">
+            <h2>RESERVEZ DES MAINTENANT</h2>
+            <div class = "card-container">
+                <div class = "card-img">
+                    <!-- image here -->
+                </div>
+
+                <div class = "card-content">
+                    <h3>Reservation</h3>
+                    <form>
+                        <div class = "form-row">
+                            <select name = "days">
+                                <option value = "day-select">Select Day</option>
+                                <option value = "sunday">Sunday</option>
+                                <option value = "monday">Monday</option>
+                                <option value = "tuesday">Tuesday</option>
+                                <option value = "wednesday">Wednesday</option>
+                                <option value = "thursday">Thursday</option>
+                                <option value = "friday">Friday</option>
+                                <option value = "saturday">Saturday</option>
+                            </select>
+
+                            <select name = "hours">
+                                <option value = "hour-select">Select Hour</option>
+                                <option value = "10">10: 00</option>
+                                <option value = "10">12: 00</option>
+                                <option value = "10">14: 00</option>
+                                <option value = "10">16: 00</option>
+                                <option value = "10">18: 00</option>
+                                <option value = "10">20: 00</option>
+                                <option value = "10">22: 00</option>
+                            </select>
+                        </div>
+
+                        <div class = "form-row">
+                            <input type = "text" placeholder="Full Name">
+                            <input type = "text" placeholder="Phone Number">
+                        </div>
+
+                        <div class = "form-row">
+                            <input type = "number" placeholder="How Many Persons?" min = "1">
+                            <input type = "submit" value = "BOOK TABLE">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+    </body>
+</html>
